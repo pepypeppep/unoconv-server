@@ -27,6 +27,4 @@ RUN yarn && yarn cache clean
 
 EXPOSE 4000
 
-ENTRYPOINT /usr/bin/unoconv --listener --server=0.0.0.0 --port=2002
-
-CMD ["./unoconv-server"]
+ENTRYPOINT ["./unoconv-server"]
