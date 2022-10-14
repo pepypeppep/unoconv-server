@@ -30,4 +30,3 @@ EXPOSE 4000
 CMD ["start"]
 
 ENTRYPOINT /usr/bin/unoconv --listener --server=0.0.0.0 --port=2002
-ENTRYPOINT ["./unoconv-server"]
